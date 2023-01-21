@@ -49,22 +49,10 @@ const languages = {
     projectsTitle: "Proyectos",
     projectsButton: "Ver",
     //footer
-    footerTitle: "Contactos",
+    footerTitle: "Contacto",
     footerContent:
-      "Si te gustan mis trabajos y deseas contratarme o realizarme alguna pregunta, aquí te dejo algunas vías de comunicación. O sólo puedes dejar tu consulta en este formulario. ¡Gracias!",
-    formName: "Nombre",
-    formEmail: "Email",
-    formMessage: "Mensaje",
-    formButton: "Enviar",
-    emailMessage: "¡Los datos han sido enviados!",
-    nameErrorMessage: "¡El Nombre es requerido!",
-    nameErrorMessage2:
-      "¡El campo Nombre sólo acepta letras y espacios en blanco!",
-    emailErrorMessage: "!El Email es requerido!",
-    emailErrorMessage2: "¡El Email es incorrecto!",
-    messageErrorMessage: "!El campo Mensaje es requerido!",
-    messageErrorMessage2: "¡El campo Mensaje acepta hasta 250 caracteres!",
-    copyright: "Todos los derechos reservados",
+      "Si deseas conocer un poco mas acerca de mi perfil, y te gustan mis proyectos, aqui te dejo algunas vias de comunicacion adicionales. Gracias por visitar mi sitio web personal!",
+      copyright: "Todos los derechos reservados",
   },
 
   english: {
@@ -110,20 +98,9 @@ const languages = {
     projectsTitle: "Projects",
     projectsButton: "See",
     //footer
-    footerTitle: "Contacts",
+    footerTitle: "Contact",
     footerContent:
-      "If you like my work and want to hire me or ask me any questions, here are some ways of communication. Or you can only leave your query in this form. Thank you!",
-    formName: "Name",
-    formEmail: "Email",
-    formMessage: "Message",
-    formButton: "Submit",
-    emailMessage: "The data has been sent!",
-    nameErrorMessage: "The Name is required!",
-    nameErrorMessage2: "The Name field only accepts letters and whitespace!",
-    emailErrorMessage: "The Email is required!",
-    emailErrorMessage2: "The Email field is incorrect!",
-    messageErrorMessage: "The field Message is required!",
-    messageErrorMessage2: "The Message field accepts up to 250 characters!",
+      "If you want to know a little more about my profile, and you like my projects, here are some additional ways of communication. Thank you for visiting my personal website",
     copyright: "All rights reserved",
   },
 };

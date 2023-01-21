@@ -1,7 +1,6 @@
 import React from 'react';
 import SocialNetworks from '../utilities/SocialNetworks/SocialNetworks';
 import './Footer.css';
-import MyForm from './MyForm';
 import { FaWhatsapp } from 'react-icons/fa';
 import { AiFillMail } from 'react-icons/ai';
 import Subtitle from '../utilities/Subtitle/Subtitle';
@@ -22,7 +21,6 @@ const Footer = () => {
 				data-aos='zoom-in'
 			>
 				<div className='footer-content'>
-					<MyForm />
 					<div className='footer-contacts'>
 						<div
 							className='comment'
@@ -36,14 +34,14 @@ const Footer = () => {
 								data-aos='zoom-in'
 							>
 								<FaWhatsapp className='contact-logo' />
-								<p>(54) 11 4914-4055</p>
+								<p>(54) 221 523-8850</p>
 							</div>
 							<div
 								className='whatsapp-email'
 								data-aos='zoom-in'
 							>
 								<AiFillMail className='contact-logo' />
-								<p>enriquespinelli.coder@gmail.com</p>
+								<p>eliggiguido@hotmail.com</p>
 							</div>
 						</div>
 					</div>
