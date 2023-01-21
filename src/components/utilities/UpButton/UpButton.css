@@ -1,0 +1,25 @@
+.back-arrow {
+    color: var(--primary);
+    font-size: 2rem;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: var(--secondary);
+    border-radius: 10%;
+    box-shadow: 0 0 10px 0 var(--secondary);
+    animation: efect 1s infinite;
+    left: 91%;
+    top: 91%;
+    opacity: .4;
+    z-index: 9;
+}
+@keyframes efect {
+    0% {
+        opacity: .4;
+    }
+    50% {
+        opacity: .8;
+    }
+    100% {   
+        opacity: .4;
+    }
+}

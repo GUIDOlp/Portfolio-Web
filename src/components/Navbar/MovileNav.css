@@ -1,0 +1,52 @@
+.menu-icon {
+	width: 30px;
+	height: 30px;
+	color: var(--light);
+	cursor: pointer;
+	margin-right: 0;
+	animation: menuEfect 0.3s linear;
+	transition: all 0.3s;
+}
+@keyframes menuEfect {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+.movile-nav {
+	display: flex;
+	justify-content: flex-end;
+}
+.movile-nav .nav-links {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4rem;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	background-color: var(--dark-grey, 0.5);
+	opacity: 1;
+	border-top: 2px solid var(--secondary);
+	padding: 2rem 2rem;
+	box-shadow: 0 0 5px 0 var(--light);
+	animation: menuEfect 1s linear;
+}
+@keyframes menuEfect {
+	0% {
+		opacity: 0.4;
+		transform: scale(1);
+		right: -500px;
+	}
+	50% {
+		right: 0;
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}

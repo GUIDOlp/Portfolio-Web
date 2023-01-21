@@ -1,0 +1,21 @@
+.nav-links {
+	list-style: none;
+}
+.nav-links a {
+	color: var(--light);
+	text-decoration: none;
+	padding: 5px 15px 0px 15px;
+	margin: 0.5rem;
+	position: relative;
+}
+.nav-links a:hover {
+	border-bottom: 3px solid var(--secondary);
+	border-left: 1px solid var(--secondary);
+	border-radius: 7px;
+	padding: 5px 15px 5px 14px;
+	color: var(--secondary);
+}
+.nav-links a:active {
+	background: var(--secondary);
+	color: var(--dark-grey);
+}

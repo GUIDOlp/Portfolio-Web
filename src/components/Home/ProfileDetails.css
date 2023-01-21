@@ -1,0 +1,76 @@
+.profile-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 3.5rem 0 5rem 0;
+	gap: 1rem;
+	width: 16rem;
+}
+.profile-details-name {
+	width: 16rem;
+}
+.profile-details-name span {
+	font-size: 1.8rem;
+}
+.name-text {
+	color: var(--secondary);
+}
+.profile-details-role {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 16rem;
+}
+.profile-details-role h1 {
+	font-size: 2rem;
+	width: 16rem;
+	color: var(--light);
+	text-shadow: 2px 2px 5px var(--light);
+}
+.profile-extra {
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+	width: 16rem;
+}
+.profile-extra p {
+	display: block;
+}
+@media screen and (min-width: 480px) {
+	.profile-details-name {
+		font-size: 1.4rem;
+		width: 20rem;
+	}
+	.profile-details-role {
+		width: 20rem;
+	}
+	.profile-details-role h1 {
+		font-size: 2.3rem;
+	}
+	.profile-details-name span {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (min-width: 950px) {
+	.profile-details {
+		gap: 2rem;
+		width: 24rem;
+	}
+	.profile-details-name {
+		width: 24rem;
+	}
+	.profile-details-role {
+		width: 24rem;
+	}
+	.profile-extra {
+		width: 24rem;
+	}
+	.profile-details-role h1 {
+		font-size: 2.5rem;
+		width: 24rem;
+	}
+	.profile-details-name span {
+		font-size: 1.8rem;
+	}
+}

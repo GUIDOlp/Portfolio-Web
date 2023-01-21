@@ -1,0 +1,9 @@
+.hire-resume-buttons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 2rem;
+}

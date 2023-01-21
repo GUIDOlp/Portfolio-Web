@@ -1,0 +1,22 @@
+.my-button {
+	padding: 0.3rem 2rem;
+	border-radius: 25px;
+	background: var(--primary);
+	border: 2px solid var(--light);
+	margin: 0.5rem;
+	color: var(--light);
+	font-size: 1rem;
+	cursor: pointer;
+}
+.my-button:hover {
+	transition: 0.1s;
+	color: var(--secondary);
+	border: 2px solid var(--secondary);
+	box-shadow: 0 0 10px var(--secondary);
+	transform: scale(1.1);
+}
+.my-button:active {
+	transform: scale(0.7);
+	opacity: 0.2;
+	transition: all ease 0.2s;
+}

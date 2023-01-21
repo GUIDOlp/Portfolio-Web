@@ -1,0 +1,207 @@
+.profile-container {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--light);
+  padding-top: 75px;
+  width: 100%;
+}
+.profile-picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 0 0 var(--light);
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+}
+.profile-picture-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  background-image: url("../../assets/profile.jpg");
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  animation: pictureEfect 3s infinite;
+  box-shadow: 0 0 20px 0 var(--light);
+}
+@keyframes pictureEfect {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 5px 0 var(--light);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0 var(--light);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 5px 0 var(--light);
+  }
+}
+.htmlLogo {
+  width: 6rem;
+  position: absolute;
+  animation: htmlLogoEfect 4s infinite;
+  animation-delay: 0s;
+  opacity: 0;
+}
+@keyframes htmlLogoEfect {
+  0% {
+    transform: scale(0);
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(0.7) translateX(-160%) translateY(-30%);
+    opacity: 0;
+  }
+}
+
+.cssLogo {
+  width: 3.5rem;
+  animation: cssLogoEfect 4s infinite;
+  position: absolute;
+  opacity: 0;
+  animation-delay: 0.8s;
+}
+@keyframes cssLogoEfect {
+  0% {
+    transform: scale(0);
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(0.7) translateY(210%);
+    opacity: 0;
+  }
+}
+.reactLogo {
+  width: 5rem;
+  position: absolute;
+  animation: reactLogoEfect 4s infinite;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+@keyframes reactLogoEfect {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9) translateX(120%) translateY(100%);
+    opacity: 0;
+  }
+}
+.javascriptLogo {
+  width: 3rem;
+  position: absolute;
+  animation: javascriptLogoEfect 4s infinite;
+  animation-delay: 1.6s;
+  opacity: 0;
+}
+@keyframes javascriptLogoEfect {
+  0% {
+    transform: scale(0);
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(0.8) translateX(280%) translateY(-50%);
+    opacity: 0;
+  }
+}
+.nodejsLogo {
+  width: 6rem;
+  position: absolute;
+  animation: nodejsLogoEfect 4s infinite;
+  animation-delay: 2s;
+  opacity: 0;
+}
+@keyframes nodejsLogoEfect {
+  0% {
+    transform: scale(0);
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(0.8) translateX(130%) translateY(-120%);
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profile-container {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .profile-picture {
+    margin-bottom: 4rem;
+    width: 16rem;
+    height: 16rem;
+  }
+  .htmlLogo {
+    width: 7.5rem;
+  }
+  .reactNativeLogo {
+    width: 4.5rem;
+  }
+  .cssLogo {
+    width: 4.5rem;
+  }
+  .reactLogo {
+    width: 6rem;
+  }
+  .javascriptLogo {
+    width: 3.5rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .profile-container {
+    padding-top: 4rem;
+  }
+  .profile-picture {
+    width: 18rem;
+    height: 18rem;
+  }
+  .htmlLogo {
+    width: 8.5rem;
+  }
+  .reactNativeLogo {
+    width: 5.5rem;
+  }
+  .cssLogo {
+    width: 5rem;
+  }
+  .reactLogo {
+    width: 7rem;
+  }
+  .javascriptLogo {
+    width: 4rem;
+  }
+}

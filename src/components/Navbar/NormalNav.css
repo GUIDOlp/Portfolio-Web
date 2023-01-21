@@ -1,0 +1,8 @@
+.normal-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.normal-nav a {
+	font-size: 0.9rem;
+}
