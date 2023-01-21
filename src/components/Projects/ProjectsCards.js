@@ -16,7 +16,7 @@ const ProjectsCards = () => {
       title: "Portfolio Web",
       img: img1,
       description: "ReactJS, Html y css .",
-      url: "https://enrique-spinelli-port.vercel.app/",
+      url: "https://portfolio-web-guido-eliggi.netlify.app/",
     },
     {
       id: "1",
